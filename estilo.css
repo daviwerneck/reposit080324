@@ -1,3 +1,5 @@
-header{
-    background-image: 'fundo.png';
+body{
+    background: #000000 url("./img/fundo.png") no-repeat left top;
+    background-size: 100% 100%;
+    min-height: 100vh;
 }
