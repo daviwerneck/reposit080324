@@ -1,5 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: "sans-serif"
+}
 body{
     background: #000000 url("./img/fundo.png") no-repeat left top;
     background-size: 100% 100%;
     min-height: 100vh;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction:row;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    height: 3.5rem;
+    align-items: center;
+}
+footer img {
+    margin: 0 0.5rem;
 }
