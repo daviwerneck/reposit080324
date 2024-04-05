@@ -20,12 +20,31 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    
+}
+main aside{
+    background-image: url(./img/Cano.png);
+    width: 541px;
+    height: 622px;
+    display: flex;
+    align-items: center;
+    justify-content:  flex-end;
+    flex-direction: column;
+}
+main aside img{
+    margin: 1rem;
+}
+main aside img.ultimo{
+    margin-bottom: 9rem;
 }
 
 footer{
     display: flex;
     height: 3.5rem;
     align-items: center;
+    margin-bottom: 1px;
+    position: fixed;
+    bottom: 0;
 }
 footer img {
     margin: 0 0.5rem;
