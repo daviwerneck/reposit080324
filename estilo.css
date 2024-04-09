@@ -14,14 +14,20 @@ header{
     display: flex;
     justify-content: space-between;
     flex-direction:row;
+    align-items: center;
 }
-
+header nav{
+    width: 231px;
+    display: flex;
+    justify-content: flex-end;
+}
 main{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    
+    margin-top: 10rem;
 }
+
 main aside{
     background-image: url(./img/Cano.png);
     width: 541px;
